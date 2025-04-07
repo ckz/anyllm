@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capybara Image Generation Instructions</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .instruction-section {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      border-left: 5px solid #4CAF50;
+    }
+    
+    .prompt-code {
+      display: block;
+      padding: 15px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      font-family: monospace;
+      margin: 20px 0;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    
+    .image-container {
+      margin: 30px 0;
+      text-align: center;
+    }
+    
+    .generated-image {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    
+    .back-link:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Capybara Image Generation</h1>
+      <p>Using Flux Schnell AI to generate South American wildlife</p>
+    </header>
+    
+    <div class="image-container">
+      <img src="images/capybara.jpg" alt="AI-generated capybara in South American wetlands" class="generated-image">
+      <p><em>AI-generated image of a capybara in its natural South American habitat</em></p>
+    </div>
+    
+    <div class="instruction-section">
+      <h2>How This Image Was Generated</h2>
+      <p>This image was created using the Flux Schnell AI image generation model through the Model Context Protocol (MCP). The capybara was chosen because it is a unique animal native exclusively to South America.</p>
+      
+      <h3>Prompt Used:</h3>
+      <code class="prompt-code">A capybara in its natural habitat in South American wetlands, near water with lush vegetation, photorealistic style</code>
+      
+      <h3>Why Capybaras Are Unique to South America:</h3>
+      <ul>
+        <li>Capybaras are the largest living rodents in the world</li>
+        <li>They are native exclusively to South America, found in countries like Brazil, Venezuela, Colombia, and Peru</li>
+        <li>They inhabit wetlands, marshes, and grassy areas near bodies of water</li>
+        <li>They are highly adapted to semi-aquatic life with webbed feet and eyes, ears, and nostrils positioned at the top of their heads</li>
+      </ul>
+      
+      <h3>Using the Flux Schnell MCP Server:</h3>
+      <p>To generate your own images using the Flux Schnell MCP server, you can use the following code:</p>
+      <pre class="prompt-code">
+&lt;use_mcp_tool&gt;
+&lt;server_name&gt;flux-schnell&lt;/server_name&gt;
+&lt;tool_name&gt;generate_image&lt;/tool_name&gt;
+&lt;arguments&gt;
+{
+  "prompt": "Your detailed description here"
+}
+&lt;/arguments&gt;
+&lt;/use_mcp_tool&gt;</pre>
+    </div>
+    
+    <a href="index.html" class="back-link">← Back to Animal World</a>
+  </div>
+</body>
+</html>
