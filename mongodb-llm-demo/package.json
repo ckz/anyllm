@@ -1,0 +1,12 @@
+{
+  "name": "llm_demo",
+  "version": "1.0.0",
+  "description": "Sample MongoDB data for LLM demo project",
+  "main": "upload_sample_data.js",
+  "scripts": {
+    "upload": "node upload_sample_data.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+}
